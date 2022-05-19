@@ -14,7 +14,6 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var buildLabel: UILabel!
     @IBOutlet weak var versionLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpBuildAndVersion()
@@ -27,5 +26,4 @@ class AboutViewController: UIViewController {
         buildLabel.text = "Build: \(build)"
         versionLabel.text = "Version: \(version)"
     }
-
 }
